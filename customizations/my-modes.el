@@ -1,3 +1,7 @@
+; RVM
+(require 'rvm)
+(rvm-use-default)
+
 ; Ruby
 (autoload 'ruby-mode "ruby-mode" "Mode for editing ruby source files" t)
 (autoload 'run-ruby "inf-ruby" "Run an inferior Ruby process")
@@ -9,3 +13,4 @@
 ; Rails
 (require 'rinari)
 (setq rinari-tags-file-name "TAGS")
+

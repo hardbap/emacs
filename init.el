@@ -20,7 +20,9 @@
 ; note: these are configured in customizations/my-modes.el
 (vendor 'color-theme)
 (vendor 'color-theme-solarized)
+(vendor 'rvm)
 (vendor 'rinari)
+
 
 ; load personal customizations (keybindings, colors, etc.)
 (mapcar 'load-directory '("~/.emacs.d/customizations"))
