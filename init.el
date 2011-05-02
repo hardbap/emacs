@@ -37,4 +37,4 @@
     (mapcar 'load-directory '("~/.emacs.d/mac-customizations")))
 
 ; start a server for usage with emacsclient
-;(add-hook 'after-init-hook 'server-start)
+(add-hook 'after-init-hook 'server-start)
