@@ -27,7 +27,6 @@
 (vendor 'full-ack)
 (vendor 'coffee-mode)
 
-
 ; load personal customizations (keybindings, colors, etc.)
 (mapcar 'load-directory '("~/.emacs.d/customizations"))
 

@@ -1,6 +1,6 @@
 ; nice font
 (defun fontify-frame (frame)
-  (set-frame-parameter frame 'font "Meslo LG M DZ-16"))
+  (set-frame-parameter frame 'font "Meslo LG M DZ-14"))
 
 ; fontify current frame
 (fontify-frame nil)

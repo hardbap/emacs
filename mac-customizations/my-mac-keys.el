@@ -40,3 +40,9 @@
 
 ; fullscreen!
 (global-set-key [(super return)] 'ns-toggle-fullscreen)
+
+; beginning of buffer
+(global-set-key [(super <)] 'beginning-of-buffer)
+; end of buffer
+(global-set-key [(super >)] 'end-of-buffer)
+
