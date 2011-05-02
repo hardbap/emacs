@@ -24,6 +24,7 @@
 (vendor 'rinari)
 (vendor 'textmate)
 (vendor 'yaml-mode)
+(vendor 'full-ack)
 
 
 ; load personal customizations (keybindings, colors, etc.)

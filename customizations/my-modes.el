@@ -2,6 +2,12 @@
 (require 'textmate)
 (textmate-mode t)
 
+; Ack
+(autoload 'ack-same "full-ack" nil t)
+(autoload 'ack "full-ack" nil t)
+(autoload 'ack-find-same-file "full-ack" nil t)
+(autoload 'ack-find-file "full-ack" nil t)
+
 ; YAML
 (autoload 'yaml-mode "YAML" nil t)
 (add-to-list 'auto-mode-alist '("\\.yaml$" . yaml-mode))
