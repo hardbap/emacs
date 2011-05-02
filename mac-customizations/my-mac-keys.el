@@ -34,9 +34,9 @@
 (global-set-key [(meta p)] 'previous-error)
 
 ; run Ruby tests, TextMate-style
-; (add-hook 'rinari-minor-mode-hook
-;  (lambda ()
-;    (define-key rinari-minor-mode-map (kbd "s-r") 'rinari-test)))
+ (add-hook 'rinari-minor-mode-hook
+  (lambda ()
+    (define-key rinari-minor-mode-map (kbd "s-r") 'rinari-test)))
 
 ; fullscreen!
 (global-set-key [(super return)] 'ns-toggle-fullscreen)
