@@ -12,5 +12,13 @@
 ; handy function to load all elisp files in a directory
 (load-file "~/.emacs.d/load-directory.el")
 
+; load utility functions
+(mapcar 'load-directory '("~/.emacs.d/utilities"))
+
+; load third-party modes
+; note: these are configured in customizations/my-modes.el
+(vendor 'color-theme)
+; (vendor 'color-theme-solarized)
+
 ; load personal customizations (keybindings, colors, etc.)
 (mapcar 'load-directory '("~/.emacs.d/customizations"))
