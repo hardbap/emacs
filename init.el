@@ -9,6 +9,7 @@
 (add-to-list 'load-path "~/.emacs.d/customizations")
 (add-to-list 'load-path "~/.emacs.d/vendor")
 
+
 ; handy function to load all elisp files in a directory
 (load-file "~/.emacs.d/load-directory.el")
 
@@ -18,7 +19,9 @@
 ; load third-party modes
 ; note: these are configured in customizations/my-modes.el
 (vendor 'color-theme)
-; (vendor 'color-theme-solarized)
+(vendor 'color-theme-solarized)
 
 ; load personal customizations (keybindings, colors, etc.)
 (mapcar 'load-directory '("~/.emacs.d/customizations"))
+
+
