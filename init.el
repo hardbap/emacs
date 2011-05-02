@@ -22,6 +22,8 @@
 (vendor 'color-theme-solarized)
 (vendor 'rvm)
 (vendor 'rinari)
+(vendor 'textmate)
+(vendor 'yaml-mode)
 
 
 ; load personal customizations (keybindings, colors, etc.)

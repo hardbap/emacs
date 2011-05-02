@@ -1,3 +1,12 @@
+; TextMate
+(require 'textmate)
+(textmate-mode t)
+
+; YAML
+(autoload 'yaml-mode "YAML" nil t)
+(add-to-list 'auto-mode-alist '("\\.yaml$" . yaml-mode))
+(add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
+
 ; JavaScript
 (autoload 'js-mode "js" nil t)
 (add-to-list 'auto-mode-alist '("\\.js$" . js-mode))
