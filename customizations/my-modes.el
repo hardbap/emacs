@@ -1,3 +1,9 @@
+; JavaScript
+(autoload 'js-mode "js" nil t)
+(add-to-list 'auto-mode-alist '("\\.js$" . js-mode))
+; JSON
+(add-to-list 'auto-mode-alist '("\\.json$" . js-mode))
+
 ; RVM
 (require 'rvm)
 (rvm-use-default)
