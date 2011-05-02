@@ -19,6 +19,11 @@
 ; JSON
 (add-to-list 'auto-mode-alist '("\\.json$" . js-mode))
 
+; CoffeScript mode
+(require 'coffee-mode)
+(add-to-list 'auto-mode-alist '("\\.coffee$" . coffee-mode))
+(add-to-list 'auto-mode-alist '("Cakefile" . coffee-mode))
+
 ; RVM
 (require 'rvm)
 (rvm-use-default)

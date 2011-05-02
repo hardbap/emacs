@@ -25,6 +25,7 @@
 (vendor 'textmate)
 (vendor 'yaml-mode)
 (vendor 'full-ack)
+(vendor 'coffee-mode)
 
 
 ; load personal customizations (keybindings, colors, etc.)
