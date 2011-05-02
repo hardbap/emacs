@@ -24,4 +24,10 @@
 ; load personal customizations (keybindings, colors, etc.)
 (mapcar 'load-directory '("~/.emacs.d/customizations"))
 
+; per-OS customizations
+(if (string-equal system-type "gnu/linux")
+    (mapcar 'load-directory '("~/.emacs.d/linux-customizations"))
+    (mapcar 'load-directory '("~/.emacs.d/mac-customizations")))
 
+; start a server for usage with emacsclient
+;(add-hook 'after-init-hook 'server-start)
