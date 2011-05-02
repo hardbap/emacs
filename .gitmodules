@@ -13,3 +13,9 @@
 [submodule "vendor/coffee-mode"]
 	path = vendor/coffee-mode
 	url = https://github.com/defunkt/coffee-mode.git
+[submodule "vendor/rhtml"]
+	path = vendor/rhtml
+	url = https://github.com/crazycode/rhtml.git
+[submodule "vendor/rhtml-mode"]
+	path = vendor/rhtml-mode
+	url = https://github.com/crazycode/rhtml.git

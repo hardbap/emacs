@@ -26,6 +26,7 @@
 (vendor 'yaml-mode)
 (vendor 'full-ack)
 (vendor 'coffee-mode)
+(vendor 'rhtml-mode)
 
 ; load personal customizations (keybindings, colors, etc.)
 (mapcar 'load-directory '("~/.emacs.d/customizations"))
