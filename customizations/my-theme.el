@@ -14,3 +14,5 @@
 (defun my-describe-theme () ; Show the current theme
   (interactive)
   (message "%s" (car theme-current)))
+
+(color-theme-solarized-dark)
