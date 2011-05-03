@@ -1,3 +1,5 @@
+; This setup is pretty much based on Alex Payne's (https://github.com/al3x/emacs).
+
 ; enable Common List support
 (require 'cl)
 
