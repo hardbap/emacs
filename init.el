@@ -30,6 +30,8 @@
 (vendor 'coffee-mode)
 (vendor 'rhtml-mode)
 (vendor 'frame)
+(vendor 'haml-mode)
+(vendor 'sass-mode)
 
 ; load personal customizations (keybindings, colors, etc.)
 (mapcar 'load-directory '("~/.emacs.d/customizations"))

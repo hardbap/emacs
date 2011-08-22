@@ -42,4 +42,3 @@
 (global-set-key [(super <)] 'beginning-of-buffer)
 ; end of buffer
 (global-set-key [(super >)] 'end-of-buffer)
-

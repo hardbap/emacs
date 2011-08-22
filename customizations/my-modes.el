@@ -16,8 +16,13 @@
 ; JavaScript
 (autoload 'js-mode "js" nil t)
 (add-to-list 'auto-mode-alist '("\\.js$" . js-mode))
+(setq js-indent-level 2)
+
 ; JSON
 (add-to-list 'auto-mode-alist '("\\.json$" . js-mode))
+
+; SASS/SCSS
+(add-to-list 'auto-mode-alist '("\\.scss$" . sass-mode))
 
 ; CoffeScript mode
 (require 'coffee-mode)
@@ -35,6 +40,7 @@
 (setq auto-mode-alist (cons '("Rakefile" . ruby-mode) auto-mode-alist))
 (setq auto-mode-alist (cons '("Capfile" . ruby-mode) auto-mode-alist))
 (setq auto-mode-alist (cons '("\\.rake" . ruby-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("Gemfile" . ruby-mode) auto-mode-alist))
 
 ; Rails
 (require 'rinari)
@@ -47,3 +53,4 @@
 
 (add-to-list 'auto-mode-alist '("\\.erb\\'" . rhtml-mode))
 (add-to-list 'auto-mode-alist '("\\.rjs\\'" . rhtml-mode))
+
