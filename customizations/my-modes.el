@@ -1,3 +1,8 @@
+; YASnippet
+(require 'yasnippet)
+(yas/initialize)
+(yas/load-directory "~/.emacs.d/vendor/yasnippet/snippets")
+
 ; TextMate
 (require 'textmate)
 (textmate-mode t)
