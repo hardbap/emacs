@@ -1,0 +1,6 @@
+#name : test "..." do ... end
+#group : general
+# --
+test "$1" do
+  $0
+end

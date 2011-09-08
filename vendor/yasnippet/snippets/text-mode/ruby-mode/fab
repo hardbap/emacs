@@ -1,0 +1,4 @@
+#name : Fabricate(:...)
+#group : general
+# --
+Fabricate(:$1)$0
