@@ -9,7 +9,7 @@
 (push 'fontify-frame after-make-frame-functions)
 
 ;; set the initial frame size
-(setq initial-frame-alist '((width . 180) (height . 60)))
+(setq initial-frame-alist '((width . 220) (height . 60)))
 
 (require 'frame-cmds)
 (global-set-key (kbd "C-M-<up>") 'shrink-frame)

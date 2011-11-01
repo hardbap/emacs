@@ -33,6 +33,7 @@
 (vendor 'haml-mode)
 (vendor 'sass-mode)
 (vendor 'yasnippet)
+(vendor 'slim-mode)
 
 ; load personal customizations (keybindings, colors, etc.)
 (mapcar 'load-directory '("~/.emacs.d/customizations"))
