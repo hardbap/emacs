@@ -24,7 +24,7 @@
 (vendor 'color-theme-solarized)
 (vendor 'rvm)
 (vendor 'rinari)
-;(vendor 'textmate)
+(vendor 'textmate)
 (vendor 'yaml-mode)
 (vendor 'full-ack)
 (vendor 'coffee-mode)
