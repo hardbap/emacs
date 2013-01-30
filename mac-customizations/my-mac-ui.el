@@ -1,6 +1,6 @@
 ; nice font
 (defun fontify-frame (frame)
-  (set-frame-parameter frame 'font "Meslo LG M DZ-14"))
+  (set-frame-parameter frame 'font "-apple-CentSchbook_Mono_BT-medium-normal-normal-*-16-*-*-*-m-0-iso10646-1"))
 
 ; fontify current frame
 (fontify-frame nil)
@@ -9,7 +9,7 @@
 (push 'fontify-frame after-make-frame-functions)
 
 ;; set the initial frame size
-(setq initial-frame-alist '((width . 220) (height . 60)))
+(setq initial-frame-alist '((width . 160) (height . 60)))
 
 (require 'frame-cmds)
 (global-set-key (kbd "C-M-<up>") 'shrink-frame)
