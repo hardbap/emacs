@@ -18,6 +18,19 @@
 ; load utility functions
 (mapcar 'load-directory '("~/.emacs.d/utilities"))
 
+(require 'package)
+(add-to-list 'package-archives
+             '("marmalade" . "http://marmalade-repo.org/packages/"))
+(package-initialize)
+
+(defvar my-packages '(clojure-mode
+                      clojure-test-mode
+                      nrepl))
+
+(dolist (p my-packages)
+  (when (not (package-installed-p p))
+    (package-install p)))
+
 ; load third-party modes
 ; note: these are configured in customizations/my-modes.el
 (vendor 'color-theme)
