@@ -24,6 +24,7 @@
 (package-initialize)
 
 (defvar my-packages '(textmate
+                      rinari
                       clojure-mode
                       clojure-test-mode
                       nrepl))
@@ -37,11 +38,10 @@
 (vendor 'color-theme)
 (vendor 'color-theme-solarized)
 (vendor 'rvm)
-(vendor 'rinari)
+(vendor 'rhtml-mode)
 (vendor 'yaml-mode)
 (vendor 'full-ack)
 (vendor 'coffee-mode)
-(vendor 'rhtml-mode)
 (vendor 'frame)
 (vendor 'haml-mode)
 (vendor 'sass-mode)
