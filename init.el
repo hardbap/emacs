@@ -23,7 +23,8 @@
              '("marmalade" . "http://marmalade-repo.org/packages/"))
 (package-initialize)
 
-(defvar my-packages '(clojure-mode
+(defvar my-packages '(textmate
+                      clojure-mode
                       clojure-test-mode
                       nrepl))
 
@@ -37,7 +38,6 @@
 (vendor 'color-theme-solarized)
 (vendor 'rvm)
 (vendor 'rinari)
-(vendor 'textmate)
 (vendor 'yaml-mode)
 (vendor 'full-ack)
 (vendor 'coffee-mode)
