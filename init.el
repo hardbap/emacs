@@ -25,6 +25,7 @@
 
 (defvar my-packages '(textmate
                       rinari
+                      exec-path-from-shell
                       clojure-mode
                       clojure-test-mode
                       nrepl))
