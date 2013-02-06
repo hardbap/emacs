@@ -25,7 +25,7 @@
 
 (defvar my-packages '(textmate
                       rinari
-                      js2-mode
+                      coffee-mode
                       clojure-mode
                       clojure-test-mode
                       nrepl))
@@ -42,7 +42,6 @@
 (vendor 'rhtml-mode)
 (vendor 'yaml-mode)
 (vendor 'full-ack)
-(vendor 'coffee-mode)
 (vendor 'frame)
 (vendor 'haml-mode)
 (vendor 'sass-mode)

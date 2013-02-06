@@ -30,7 +30,7 @@
 (add-to-list 'auto-mode-alist '("\\.scss$" . sass-mode))
 
 ; CoffeScript mode
-(require 'coffee-mode)
+;(require 'coffee-mode)
 (add-to-list 'auto-mode-alist '("\\.coffee$" . coffee-mode))
 (add-to-list 'auto-mode-alist '("Cakefile" . coffee-mode))
 
@@ -62,4 +62,3 @@
 
 (add-to-list 'auto-mode-alist '("\\.erb\\'" . rhtml-mode))
 (add-to-list 'auto-mode-alist '("\\.rjs\\'" . rhtml-mode))
-
