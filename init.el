@@ -25,6 +25,7 @@
 
 (defvar my-packages '(textmate
                       rinari
+                      js2-mode
                       clojure-mode
                       clojure-test-mode
                       nrepl))
