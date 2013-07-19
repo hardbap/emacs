@@ -6,8 +6,11 @@
 ; switch to shell
 (global-set-key (kbd "s-0") 'visit-ansi-term)
 
-; search with ack
-(global-set-key (kbd "s-F") 'ack)
+; search with the silver searcher
+(global-set-key (kbd "s-F") 'ag)
+(global-set-key (kbd "<f5>") 'ag-project-at-point)
+(global-set-key (kbd "<f6>") 'ag-regexp-project-at-point)
+
 
 ; open file
 (global-set-key [(super o)] 'find-file)

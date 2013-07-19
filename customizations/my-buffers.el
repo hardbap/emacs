@@ -23,3 +23,11 @@
 (setq kill-buffer-query-functions
   (remq 'process-kill-buffer-query-function
          kill-buffer-query-functions))
+
+(require 'ag)
+;(setq ag-highlight-search t)
+
+(add-to-list 'load-path "~/.emacs.d/vendor/dash")
+(autoload 'dash-at-point "dash-at-point"
+          "Search the word at point with Dash." t nil)
+(global-set-key "\C-cd" 'dash-at-point)

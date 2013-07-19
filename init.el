@@ -24,10 +24,12 @@
 (package-initialize)
 
 (defvar my-packages '(textmate
+                      markdown
                       rinari
                       coffee-mode
                       clojure-mode
                       clojure-test-mode
+                      ag
                       nrepl))
 
 (dolist (p my-packages)
@@ -41,12 +43,14 @@
 (vendor 'rvm)
 (vendor 'rhtml-mode)
 (vendor 'yaml-mode)
-(vendor 'full-ack)
+;(vendor 'full-ack)
 (vendor 'frame)
 (vendor 'haml-mode)
 (vendor 'sass-mode)
+(vendor 'scss-mode)
 (vendor 'yasnippet)
 (vendor 'slim-mode)
+(vendor 'dash-at-point)
 
 ; load personal customizations (keybindings, colors, etc.)
 (mapcar 'load-directory '("~/.emacs.d/customizations"))
