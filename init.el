@@ -24,7 +24,6 @@
 (package-initialize)
 
 (defvar my-packages '(textmate
-                      markdown
                       rinari
                       coffee-mode
                       clojure-mode
@@ -51,6 +50,7 @@
 (vendor 'yasnippet)
 (vendor 'slim-mode)
 (vendor 'dash-at-point)
+(vendor 'scala-mode2)
 
 ; load personal customizations (keybindings, colors, etc.)
 (mapcar 'load-directory '("~/.emacs.d/customizations"))
