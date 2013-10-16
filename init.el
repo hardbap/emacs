@@ -21,6 +21,8 @@
 (require 'package)
 (add-to-list 'package-archives
              '("marmalade" . "http://marmalade-repo.org/packages/"))
+(add-to-list 'package-archives
+  '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (package-initialize)
 
 (defvar my-packages '(textmate
@@ -30,6 +32,7 @@
                       clojure-test-mode
                       ag
                       nrepl))
+
 
 (dolist (p my-packages)
   (when (not (package-installed-p p))
@@ -51,6 +54,9 @@
 (vendor 'slim-mode)
 (vendor 'dash-at-point)
 (vendor 'scala-mode2)
+(vendor 'helm)
+
+
 
 ; load personal customizations (keybindings, colors, etc.)
 (mapcar 'load-directory '("~/.emacs.d/customizations"))
